@@ -1,0 +1,2065 @@
+{
+    "nodes": {
+        "Frodo": "Hobbit",
+        "Sam": "Hobbit",
+        "Merry": "Hobbit",
+        "Pippin": "Hobbit",
+        "Gandalf": "Wizard",
+        "Aragorn": "Human",
+        "Boromir": "Human",
+        "Legolas": "Elf",
+        "Gimli": "Dwarf",
+        "Gollum": "Creature",
+        "Saruman": "Wizard",
+        "Elrond": "Elf",
+        "Galadriel": "Elf",
+        "The Shire": "Location",
+        "Rivendell": "Location",
+        "Moria": "Location",
+        "Lothlorien": "Location",
+        "Mordor": "Location",
+        "Isengard": "Location",
+        "Gondor": "Location",
+        "Rohan": "Location",
+        "The One Ring": "Artifact",
+        "Sting": "Artifact",
+        "Glamdring": "Artifact",
+        "Bilbo": "Hobbit",
+        "Théoden": "Human",
+        "Éowyn": "Human",
+        "Éomer": "Human",
+        "Faramir": "Human",
+        "Denethor": "Human",
+        "Treebeard": "Ent",
+        "Shelob": "Creature",
+        "Sauron": "Dark Lord",
+        "Gríma Wormtongue": "Human",
+        "Arwen": "Elf",
+        "Rosie Cotton": "Hobbit",
+        "Balin": "Dwarf",
+        "Radagast": "Wizard",
+        "Helm's Deep": "Location",
+        "Minas Tirith": "Location",
+        "Barad-dûr": "Location",
+        "Mount Doom": "Location",
+        "Dead Marshes": "Location",
+        "Fangorn Forest": "Location",
+        "Bree": "Location",
+        "Weathertop": "Location",
+        "Osgiliath": "Location",
+        "Andúril": "Artifact",
+        "Palantír": "Artifact",
+        "Phial of Galadriel": "Artifact",
+        "Horn of Gondor": "Artifact",
+        "Mithril Coat": "Artifact",
+        "White Tree": "Artifact",
+        "Black Arrow": "Artifact",
+        "Glorfindel": "Elf",
+        "Barliman Butterbur": "Human",
+        "Tom Bombadil": "Mystery",
+        "Goldberry": "Mystery",
+        "Gothmog": "Orc",
+        "Mouth of Sauron": "Creature",
+        "Isildur": "Human",
+        "Elendil": "Human",
+        "Anárion": "Human",
+        "Círdan": "Elf",
+        "Beregond": "Human",
+        "Haldir": "Elf",
+        "Gamling": "Human",
+        "Halbarad": "Human",
+        "Shagrat": "Orc",
+        "Gorbag": "Orc",
+        "Grey Havens": "Location",
+        "Dol Guldur": "Location",
+        "Emyn Muil": "Location",
+        "Anduin": "Location",
+        "Pelennor Fields": "Location",
+        "Caras Galadhon": "Location",
+        "Tol Eressëa": "Location",
+        "Dagorlad": "Location",
+        "Númenor": "Location",
+        "Erebor": "Location",
+        "Lake-town": "Location",
+        "Narsil": "Artifact",
+        "Elendilmir": "Artifact",
+        "Ring of Barahir": "Artifact",
+        "Sword of Éowyn": "Artifact",
+        "Stone of Erech": "Artifact",
+        "Aeglos": "Artifact",
+        "Red Arrow": "Artifact",
+        "Keys of Barad-dûr": "Artifact",
+        "Orcs of Mordor": "Faction",
+        "Uruk-hai": "Faction",
+        "Nazgûl": "Faction",
+        "Dead Men of Dunharrow": "Faction",
+        "Rangers of the North": "Faction",
+        "Army of the West": "Faction",
+        "Haradrim": "Faction",
+        "Easterlings": "Faction",
+        "Beorn": "Skin-changer",
+        "Bard the Bowman": "Human",
+        "Thranduil": "Elf",
+        "Dáin Ironfoot": "Dwarf",
+        "Azog": "Orc",
+        "Bolg": "Orc",
+        "Kili": "Dwarf",
+        "Fili": "Dwarf",
+        "Thorin Oakenshield": "Dwarf",
+        "Gwaihir": "Eagle",
+        "Landroval": "Eagle",
+        "Smaug": "Dragon",
+        "Esgaroth": "Location",
+        "Beorn's House": "Location",
+        "Iron Hills": "Location",
+        "Thranduil's Halls": "Location",
+        "Mount Gundabad": "Location",
+        "Blue Mountains": "Location",
+        "Forlindon": "Location",
+        "Ettenmoors": "Location",
+        "Arkenstone": "Artifact",
+        "Black Sword of Túrin": "Artifact",
+        "Three Elven Rings": "Artifact",
+        "Crown of Gondor": "Artifact",
+        "White Knife": "Artifact",
+        "Durin's Axe": "Artifact"
+    },
+    "relationships": [
+        [
+            "Rangers of the North",
+            "Nazgûl",
+            "ALLY_OF",
+            {
+                "notes": "strong"
+            }
+        ],
+        [
+            "Gandalf",
+            "Éowyn",
+            "MENTORS",
+            {
+                "notes": "ancient"
+            }
+        ],
+        [
+            "Barliman Butterbur",
+            "White Tree",
+            "WIELDS",
+            {
+                "notes": "ancient"
+            }
+        ],
+        [
+            "Bard the Bowman",
+            "The Shire",
+            "TRAVELS_TO",
+            {
+                "notes": "strong"
+            }
+        ],
+        [
+            "Bolg",
+            "Bard the Bowman",
+            "BETRAYS",
+            {
+                "notes": "ancient"
+            }
+        ],
+        [
+            "Anárion",
+            "Bree",
+            "TRAVELS_TO",
+            {
+                "notes": "hidden"
+            }
+        ],
+        [
+            "Rosie Cotton",
+            "Blue Mountains",
+            "LIVES_IN",
+            {
+                "notes": "ancient"
+            }
+        ],
+        [
+            "Gollum",
+            "Andúril",
+            "POSSESSES",
+            {
+                "notes": "strong"
+            }
+        ],
+        [
+            "Gamling",
+            "Saruman",
+            "FOLLOWS",
+            {
+                "notes": "hidden"
+            }
+        ],
+        [
+            "Faramir",
+            "Gothmog",
+            "ENEMIES_WITH",
+            {
+                "notes": "hidden"
+            }
+        ],
+        [
+            "Gandalf",
+            "Army of the West",
+            "CONTROLS",
+            {
+                "notes": "ancient"
+            }
+        ],
+        [
+            "Orcs of Mordor",
+            "Uruk-hai",
+            "BATTLES",
+            {
+                "notes": "strong"
+            }
+        ],
+        [
+            "Frodo",
+            "Barad-dûr",
+            "LIVES_IN",
+            {
+                "notes": "ancient"
+            }
+        ],
+        [
+            "Red Arrow",
+            "Sauron",
+            "CREATED_BY",
+            {
+                "notes": "ancient"
+            }
+        ],
+        [
+            "Beregond",
+            "Weathertop",
+            "TRAVELS_TO",
+            {
+                "notes": "ancient"
+            }
+        ],
+        [
+            "Phial of Galadriel",
+            "Haradrim",
+            "BELONGS_TO",
+            {
+                "notes": "strong"
+            }
+        ],
+        [
+            "Isildur",
+            "Radagast",
+            "FOLLOWS",
+            {
+                "notes": "strong"
+            }
+        ],
+        [
+            "Pippin",
+            "Weathertop",
+            "LIVES_IN",
+            {
+                "notes": "hidden"
+            }
+        ],
+        [
+            "Shagrat",
+            "Beregond",
+            "BETRAYS",
+            {
+                "notes": "hidden"
+            }
+        ],
+        [
+            "Glamdring",
+            "Uruk-hai",
+            "BELONGS_TO",
+            {
+                "notes": "ancient"
+            }
+        ],
+        [
+            "Three Elven Rings",
+            "Haradrim",
+            "BELONGS_TO",
+            {
+                "notes": "ancient"
+            }
+        ],
+        [
+            "Saruman",
+            "Théoden",
+            "MENTORS",
+            {
+                "notes": "ancient"
+            }
+        ],
+        [
+            "Éomer",
+            "Elendil",
+            "FRIENDS_WITH",
+            {
+                "notes": "hidden"
+            }
+        ],
+        [
+            "Bolg",
+            "Éomer",
+            "BETRAYS",
+            {
+                "notes": "ancient"
+            }
+        ],
+        [
+            "Nazgûl",
+            "Army of the West",
+            "ALLY_OF",
+            {
+                "notes": "hidden"
+            }
+        ],
+        [
+            "Halbarad",
+            "Barad-dûr",
+            "GUARDS",
+            {
+                "notes": "strong"
+            }
+        ],
+        [
+            "Thranduil's Halls",
+            "Barad-dûr",
+            "CONNECTED_TO",
+            {
+                "notes": "ancient"
+            }
+        ],
+        [
+            "Barliman Butterbur",
+            "Rohan",
+            "GUARDS",
+            {
+                "notes": "hidden"
+            }
+        ],
+        [
+            "Rangers of the North",
+            "Easterlings",
+            "BATTLES",
+            {
+                "notes": "ancient"
+            }
+        ],
+        [
+            "Gandalf",
+            "Orcs of Mordor",
+            "CONTROLS",
+            {
+                "notes": "ancient"
+            }
+        ],
+        [
+            "Éomer",
+            "Pippin",
+            "PROTECTS",
+            {
+                "notes": "strong"
+            }
+        ],
+        [
+            "Durin's Axe",
+            "Sauron",
+            "CREATED_BY",
+            {
+                "notes": "strong"
+            }
+        ],
+        [
+            "Frodo",
+            "Rohan",
+            "LIVES_IN",
+            {
+                "notes": "hidden"
+            }
+        ],
+        [
+            "Gandalf",
+            "Rangers of the North",
+            "CONTROLS",
+            {
+                "notes": "strong"
+            }
+        ],
+        [
+            "Black Arrow",
+            "Army of the West",
+            "BELONGS_TO",
+            {
+                "notes": "hidden"
+            }
+        ],
+        [
+            "Éomer",
+            "Black Sword of Túrin",
+            "WIELDS",
+            {
+                "notes": "strong"
+            }
+        ],
+        [
+            "Red Arrow",
+            "Dead Men of Dunharrow",
+            "BELONGS_TO",
+            {
+                "notes": "ancient"
+            }
+        ],
+        [
+            "Gollum",
+            "Durin's Axe",
+            "SEEKS",
+            {
+                "notes": "hidden"
+            }
+        ],
+        [
+            "Éowyn",
+            "Rohan",
+            "GUARDS",
+            {
+                "notes": "hidden"
+            }
+        ],
+        [
+            "Narsil",
+            "Sauron",
+            "CREATED_BY",
+            {
+                "notes": "strong"
+            }
+        ],
+        [
+            "Elendil",
+            "Rohan",
+            "RULES",
+            {
+                "notes": "ancient"
+            }
+        ],
+        [
+            "Uruk-hai",
+            "Dead Men of Dunharrow",
+            "ALLY_OF",
+            {
+                "notes": "strong"
+            }
+        ],
+        [
+            "Elendil",
+            "Caras Galadhon",
+            "RULES",
+            {
+                "notes": "ancient"
+            }
+        ],
+        [
+            "Faramir",
+            "Bard the Bowman",
+            "KIN_OF",
+            {
+                "notes": "hidden"
+            }
+        ],
+        [
+            "Théoden",
+            "Saruman",
+            "FOLLOWS",
+            {
+                "notes": "hidden"
+            }
+        ],
+        [
+            "Shelob",
+            "Crown of Gondor",
+            "POSSESSES",
+            {
+                "notes": "ancient"
+            }
+        ],
+        [
+            "Théoden",
+            "Grey Havens",
+            "TRAVELS_TO",
+            {
+                "notes": "hidden"
+            }
+        ],
+        [
+            "Gothmog",
+            "Anárion",
+            "BETRAYS",
+            {
+                "notes": "strong"
+            }
+        ],
+        [
+            "Halbarad",
+            "Saruman",
+            "FOLLOWS",
+            {
+                "notes": "strong"
+            }
+        ],
+        [
+            "Keys of Barad-dûr",
+            "Sauron",
+            "CREATED_BY",
+            {
+                "notes": "strong"
+            }
+        ],
+        [
+            "Númenor",
+            "Isengard",
+            "CONNECTED_TO",
+            {
+                "notes": "strong"
+            }
+        ],
+        [
+            "Arkenstone",
+            "Sauron",
+            "CREATED_BY",
+            {
+                "notes": "hidden"
+            }
+        ],
+        [
+            "Aragorn",
+            "Sam",
+            "PROTECTS",
+            {
+                "notes": "ancient"
+            }
+        ],
+        [
+            "Gandalf",
+            "Anárion",
+            "MENTORS",
+            {
+                "notes": "hidden"
+            }
+        ],
+        [
+            "Boromir",
+            "White Tree",
+            "WIELDS",
+            {
+                "notes": "strong"
+            }
+        ],
+        [
+            "Shelob",
+            "Palantír",
+            "SEEKS",
+            {
+                "notes": "hidden"
+            }
+        ],
+        [
+            "Gorbag",
+            "Éomer",
+            "BETRAYS",
+            {
+                "notes": "strong"
+            }
+        ],
+        [
+            "Denethor",
+            "Beregond",
+            "KIN_OF",
+            {
+                "notes": "strong"
+            }
+        ],
+        [
+            "Sting",
+            "Sauron",
+            "CREATED_BY",
+            {
+                "notes": "strong"
+            }
+        ],
+        [
+            "Denethor",
+            "Lothlorien",
+            "RULES",
+            {
+                "notes": "ancient"
+            }
+        ],
+        [
+            "Aragorn",
+            "Azog",
+            "ENEMIES_WITH",
+            {
+                "notes": "ancient"
+            }
+        ],
+        [
+            "Barliman Butterbur",
+            "Rosie Cotton",
+            "PROTECTS",
+            {
+                "notes": "strong"
+            }
+        ],
+        [
+            "Gríma Wormtongue",
+            "Azog",
+            "ENEMIES_WITH",
+            {
+                "notes": "strong"
+            }
+        ],
+        [
+            "Beregond",
+            "Aragorn",
+            "KIN_OF",
+            {
+                "notes": "hidden"
+            }
+        ],
+        [
+            "Bilbo",
+            "Mordor",
+            "LIVES_IN",
+            {
+                "notes": "hidden"
+            }
+        ],
+        [
+            "Aragorn",
+            "Faramir",
+            "KIN_OF",
+            {
+                "notes": "ancient"
+            }
+        ],
+        [
+            "Éomer",
+            "Saruman",
+            "FOLLOWS",
+            {
+                "notes": "strong"
+            }
+        ],
+        [
+            "Saruman",
+            "Army of the West",
+            "CONTROLS",
+            {
+                "notes": "strong"
+            }
+        ],
+        [
+            "Gothmog",
+            "Denethor",
+            "BETRAYS",
+            {
+                "notes": "strong"
+            }
+        ],
+        [
+            "Barliman Butterbur",
+            "Sting",
+            "WIELDS",
+            {
+                "notes": "strong"
+            }
+        ],
+        [
+            "Frodo",
+            "Mordor",
+            "LIVES_IN",
+            {
+                "notes": "ancient"
+            }
+        ],
+        [
+            "Easterlings",
+            "Uruk-hai",
+            "ALLY_OF",
+            {
+                "notes": "hidden"
+            }
+        ],
+        [
+            "Éowyn",
+            "Erebor",
+            "RULES",
+            {
+                "notes": "ancient"
+            }
+        ],
+        [
+            "Boromir",
+            "Ettenmoors",
+            "GUARDS",
+            {
+                "notes": "ancient"
+            }
+        ],
+        [
+            "Orcs of Mordor",
+            "Nazgûl",
+            "ALLY_OF",
+            {
+                "notes": "strong"
+            }
+        ],
+        [
+            "Shagrat",
+            "Isildur",
+            "BETRAYS",
+            {
+                "notes": "strong"
+            }
+        ],
+        [
+            "Radagast",
+            "Army of the West",
+            "CONTROLS",
+            {
+                "notes": "hidden"
+            }
+        ],
+        [
+            "Radagast",
+            "Anárion",
+            "MENTORS",
+            {
+                "notes": "strong"
+            }
+        ],
+        [
+            "Elendil",
+            "Dagorlad",
+            "GUARDS",
+            {
+                "notes": "hidden"
+            }
+        ],
+        [
+            "Mithril Coat",
+            "Sauron",
+            "CREATED_BY",
+            {
+                "notes": "ancient"
+            }
+        ],
+        [
+            "Rosie Cotton",
+            "Gondor",
+            "LIVES_IN",
+            {
+                "notes": "ancient"
+            }
+        ],
+        [
+            "Beregond",
+            "Bolg",
+            "ENEMIES_WITH",
+            {
+                "notes": "strong"
+            }
+        ],
+        [
+            "Gríma Wormtongue",
+            "Mount Doom",
+            "RULES",
+            {
+                "notes": "ancient"
+            }
+        ],
+        [
+            "Bilbo",
+            "Osgiliath",
+            "LIVES_IN",
+            {
+                "notes": "ancient"
+            }
+        ],
+        [
+            "Frodo",
+            "Bree",
+            "LIVES_IN",
+            {
+                "notes": "ancient"
+            }
+        ],
+        [
+            "Anárion",
+            "Shagrat",
+            "ENEMIES_WITH",
+            {
+                "notes": "hidden"
+            }
+        ],
+        [
+            "Boromir",
+            "Radagast",
+            "FOLLOWS",
+            {
+                "notes": "ancient"
+            }
+        ],
+        [
+            "Faramir",
+            "Andúril",
+            "WIELDS",
+            {
+                "notes": "hidden"
+            }
+        ],
+        [
+            "Bolg",
+            "Isildur",
+            "BETRAYS",
+            {
+                "notes": "strong"
+            }
+        ],
+        [
+            "Beorn's House",
+            "Blue Mountains",
+            "CONNECTED_TO",
+            {
+                "notes": "ancient"
+            }
+        ],
+        [
+            "Éomer",
+            "Red Arrow",
+            "WIELDS",
+            {
+                "notes": "strong"
+            }
+        ],
+        [
+            "Radagast",
+            "Easterlings",
+            "CONTROLS",
+            {
+                "notes": "hidden"
+            }
+        ],
+        [
+            "Isildur",
+            "Bolg",
+            "ENEMIES_WITH",
+            {
+                "notes": "hidden"
+            }
+        ],
+        [
+            "Frodo",
+            "Moria",
+            "LIVES_IN",
+            {
+                "notes": "ancient"
+            }
+        ],
+        [
+            "Faramir",
+            "Merry",
+            "PROTECTS",
+            {
+                "notes": "hidden"
+            }
+        ],
+        [
+            "Rangers of the North",
+            "Dead Men of Dunharrow",
+            "ALLY_OF",
+            {
+                "notes": "hidden"
+            }
+        ],
+        [
+            "Orcs of Mordor",
+            "Uruk-hai",
+            "ALLY_OF",
+            {
+                "notes": "hidden"
+            }
+        ],
+        [
+            "Isildur",
+            "Saruman",
+            "FOLLOWS",
+            {
+                "notes": "hidden"
+            }
+        ],
+        [
+            "Anárion",
+            "Isengard",
+            "RULES",
+            {
+                "notes": "ancient"
+            }
+        ],
+        [
+            "Saruman",
+            "Orcs of Mordor",
+            "CONTROLS",
+            {
+                "notes": "ancient"
+            }
+        ],
+        [
+            "Radagast",
+            "Boromir",
+            "MENTORS",
+            {
+                "notes": "ancient"
+            }
+        ],
+        [
+            "Shagrat",
+            "Elendil",
+            "BETRAYS",
+            {
+                "notes": "strong"
+            }
+        ],
+        [
+            "Mouth of Sauron",
+            "Sword of Éowyn",
+            "SEEKS",
+            {
+                "notes": "strong"
+            }
+        ],
+        [
+            "White Tree",
+            "Sauron",
+            "CREATED_BY",
+            {
+                "notes": "strong"
+            }
+        ],
+        [
+            "The One Ring",
+            "Sauron",
+            "CREATED_BY",
+            {
+                "notes": "hidden"
+            }
+        ],
+        [
+            "Elendil",
+            "Denethor",
+            "KIN_OF",
+            {
+                "notes": "hidden"
+            }
+        ],
+        [
+            "Faramir",
+            "Théoden",
+            "KIN_OF",
+            {
+                "notes": "ancient"
+            }
+        ],
+        [
+            "Isildur",
+            "Gorbag",
+            "ENEMIES_WITH",
+            {
+                "notes": "strong"
+            }
+        ],
+        [
+            "Beregond",
+            "Bilbo",
+            "PROTECTS",
+            {
+                "notes": "strong"
+            }
+        ],
+        [
+            "Merry",
+            "Caras Galadhon",
+            "LIVES_IN",
+            {
+                "notes": "strong"
+            }
+        ],
+        [
+            "Mouth of Sauron",
+            "Mithril Coat",
+            "SEEKS",
+            {
+                "notes": "ancient"
+            }
+        ],
+        [
+            "Aragorn",
+            "Saruman",
+            "FOLLOWS",
+            {
+                "notes": "ancient"
+            }
+        ],
+        [
+            "Haradrim",
+            "Rangers of the North",
+            "BATTLES",
+            {
+                "notes": "hidden"
+            }
+        ],
+        [
+            "Gamling",
+            "Azog",
+            "ENEMIES_WITH",
+            {
+                "notes": "strong"
+            }
+        ],
+        [
+            "Rohan",
+            "Grey Havens",
+            "CONNECTED_TO",
+            {
+                "notes": "hidden"
+            }
+        ],
+        [
+            "Rangers of the North",
+            "Dead Men of Dunharrow",
+            "BATTLES",
+            {
+                "notes": "ancient"
+            }
+        ],
+        [
+            "Denethor",
+            "The Shire",
+            "GUARDS",
+            {
+                "notes": "strong"
+            }
+        ],
+        [
+            "Éomer",
+            "Barad-dûr",
+            "GUARDS",
+            {
+                "notes": "strong"
+            }
+        ],
+        [
+            "Théoden",
+            "Pippin",
+            "PROTECTS",
+            {
+                "notes": "strong"
+            }
+        ],
+        [
+            "Gollum",
+            "Ring of Barahir",
+            "SEEKS",
+            {
+                "notes": "hidden"
+            }
+        ],
+        [
+            "Gandalf",
+            "Dead Men of Dunharrow",
+            "CONTROLS",
+            {
+                "notes": "ancient"
+            }
+        ],
+        [
+            "Barliman Butterbur",
+            "Númenor",
+            "GUARDS",
+            {
+                "notes": "strong"
+            }
+        ],
+        [
+            "Orcs of Mordor",
+            "Army of the West",
+            "ALLY_OF",
+            {
+                "notes": "strong"
+            }
+        ],
+        [
+            "Radagast",
+            "Isildur",
+            "MENTORS",
+            {
+                "notes": "hidden"
+            }
+        ],
+        [
+            "Denethor",
+            "Mount Gundabad",
+            "RULES",
+            {
+                "notes": "hidden"
+            }
+        ],
+        [
+            "Gríma Wormtongue",
+            "Fangorn Forest",
+            "GUARDS",
+            {
+                "notes": "strong"
+            }
+        ],
+        [
+            "Shelob",
+            "Stone of Erech",
+            "SEEKS",
+            {
+                "notes": "hidden"
+            }
+        ],
+        [
+            "Tol Eressëa",
+            "Iron Hills",
+            "CONNECTED_TO",
+            {
+                "notes": "hidden"
+            }
+        ],
+        [
+            "Shagrat",
+            "Denethor",
+            "BETRAYS",
+            {
+                "notes": "strong"
+            }
+        ],
+        [
+            "Isildur",
+            "Gothmog",
+            "ENEMIES_WITH",
+            {
+                "notes": "ancient"
+            }
+        ],
+        [
+            "Théoden",
+            "Mount Doom",
+            "GUARDS",
+            {
+                "notes": "ancient"
+            }
+        ],
+        [
+            "Dol Guldur",
+            "Pelennor Fields",
+            "CONNECTED_TO",
+            {
+                "notes": "strong"
+            }
+        ],
+        [
+            "Uruk-hai",
+            "Easterlings",
+            "BATTLES",
+            {
+                "notes": "ancient"
+            }
+        ],
+        [
+            "Black Arrow",
+            "Sauron",
+            "CREATED_BY",
+            {
+                "notes": "ancient"
+            }
+        ],
+        [
+            "White Knife",
+            "Sauron",
+            "CREATED_BY",
+            {
+                "notes": "strong"
+            }
+        ],
+        [
+            "Rosie Cotton",
+            "Tol Eressëa",
+            "LIVES_IN",
+            {
+                "notes": "ancient"
+            }
+        ],
+        [
+            "Bolg",
+            "Halbarad",
+            "BETRAYS",
+            {
+                "notes": "ancient"
+            }
+        ],
+        [
+            "Azog",
+            "Théoden",
+            "BETRAYS",
+            {
+                "notes": "ancient"
+            }
+        ],
+        [
+            "Isildur",
+            "Iron Hills",
+            "TRAVELS_TO",
+            {
+                "notes": "hidden"
+            }
+        ],
+        [
+            "Halbarad",
+            "Caras Galadhon",
+            "GUARDS",
+            {
+                "notes": "ancient"
+            }
+        ],
+        [
+            "Théoden",
+            "Rosie Cotton",
+            "PROTECTS",
+            {
+                "notes": "ancient"
+            }
+        ],
+        [
+            "Gollum",
+            "Black Sword of Túrin",
+            "SEEKS",
+            {
+                "notes": "strong"
+            }
+        ],
+        [
+            "Aragorn",
+            "Elendil",
+            "KIN_OF",
+            {
+                "notes": "ancient"
+            }
+        ],
+        [
+            "Gollum",
+            "Mithril Coat",
+            "POSSESSES",
+            {
+                "notes": "hidden"
+            }
+        ],
+        [
+            "Three Elven Rings",
+            "Sauron",
+            "CREATED_BY",
+            {
+                "notes": "hidden"
+            }
+        ],
+        [
+            "Keys of Barad-dûr",
+            "Easterlings",
+            "BELONGS_TO",
+            {
+                "notes": "ancient"
+            }
+        ],
+        [
+            "Radagast",
+            "Orcs of Mordor",
+            "CONTROLS",
+            {
+                "notes": "strong"
+            }
+        ],
+        [
+            "Orcs of Mordor",
+            "Haradrim",
+            "ALLY_OF",
+            {
+                "notes": "strong"
+            }
+        ],
+        [
+            "Shelob",
+            "Black Arrow",
+            "POSSESSES",
+            {
+                "notes": "ancient"
+            }
+        ],
+        [
+            "Théoden",
+            "Éowyn",
+            "FRIENDS_WITH",
+            {
+                "notes": "strong"
+            }
+        ],
+        [
+            "Denethor",
+            "Lake-town",
+            "TRAVELS_TO",
+            {
+                "notes": "hidden"
+            }
+        ],
+        [
+            "Gothmog",
+            "Aragorn",
+            "BETRAYS",
+            {
+                "notes": "hidden"
+            }
+        ],
+        [
+            "Barliman Butterbur",
+            "Three Elven Rings",
+            "WIELDS",
+            {
+                "notes": "ancient"
+            }
+        ],
+        [
+            "Aragorn",
+            "Osgiliath",
+            "GUARDS",
+            {
+                "notes": "ancient"
+            }
+        ],
+        [
+            "Éowyn",
+            "Gandalf",
+            "FOLLOWS",
+            {
+                "notes": "strong"
+            }
+        ],
+        [
+            "Isengard",
+            "Mount Gundabad",
+            "CONNECTED_TO",
+            {
+                "notes": "hidden"
+            }
+        ],
+        [
+            "Palantír",
+            "Rangers of the North",
+            "BELONGS_TO",
+            {
+                "notes": "ancient"
+            }
+        ],
+        [
+            "Barliman Butterbur",
+            "Fangorn Forest",
+            "GUARDS",
+            {
+                "notes": "ancient"
+            }
+        ],
+        [
+            "Stone of Erech",
+            "Sauron",
+            "CREATED_BY",
+            {
+                "notes": "ancient"
+            }
+        ],
+        [
+            "Boromir",
+            "Durin's Axe",
+            "WIELDS",
+            {
+                "notes": "hidden"
+            }
+        ],
+        [
+            "Sting",
+            "Easterlings",
+            "BELONGS_TO",
+            {
+                "notes": "hidden"
+            }
+        ],
+        [
+            "Haradrim",
+            "Orcs of Mordor",
+            "ALLY_OF",
+            {
+                "notes": "ancient"
+            }
+        ],
+        [
+            "Glamdring",
+            "Dead Men of Dunharrow",
+            "BELONGS_TO",
+            {
+                "notes": "strong"
+            }
+        ],
+        [
+            "Orcs of Mordor",
+            "Dead Men of Dunharrow",
+            "BATTLES",
+            {
+                "notes": "hidden"
+            }
+        ],
+        [
+            "Orcs of Mordor",
+            "Rangers of the North",
+            "BATTLES",
+            {
+                "notes": "ancient"
+            }
+        ],
+        [
+            "Saruman",
+            "Rangers of the North",
+            "CONTROLS",
+            {
+                "notes": "hidden"
+            }
+        ],
+        [
+            "Ettenmoors",
+            "Moria",
+            "CONNECTED_TO",
+            {
+                "notes": "hidden"
+            }
+        ],
+        [
+            "Beregond",
+            "Théoden",
+            "KIN_OF",
+            {
+                "notes": "hidden"
+            }
+        ],
+        [
+            "Denethor",
+            "Bolg",
+            "ENEMIES_WITH",
+            {
+                "notes": "ancient"
+            }
+        ],
+        [
+            "Shelob",
+            "Elendilmir",
+            "POSSESSES",
+            {
+                "notes": "ancient"
+            }
+        ],
+        [
+            "Théoden",
+            "Aeglos",
+            "WIELDS",
+            {
+                "notes": "hidden"
+            }
+        ],
+        [
+            "Éomer",
+            "Esgaroth",
+            "TRAVELS_TO",
+            {
+                "notes": "ancient"
+            }
+        ],
+        [
+            "Saruman",
+            "Boromir",
+            "MENTORS",
+            {
+                "notes": "ancient"
+            }
+        ],
+        [
+            "Théoden",
+            "Gamling",
+            "FRIENDS_WITH",
+            {
+                "notes": "strong"
+            }
+        ],
+        [
+            "Isildur",
+            "Shagrat",
+            "ENEMIES_WITH",
+            {
+                "notes": "ancient"
+            }
+        ],
+        [
+            "Isildur",
+            "Faramir",
+            "KIN_OF",
+            {
+                "notes": "ancient"
+            }
+        ],
+        [
+            "Elendil",
+            "Bolg",
+            "ENEMIES_WITH",
+            {
+                "notes": "strong"
+            }
+        ],
+        [
+            "Uruk-hai",
+            "Rangers of the North",
+            "BATTLES",
+            {
+                "notes": "hidden"
+            }
+        ],
+        [
+            "Bilbo",
+            "Weathertop",
+            "LIVES_IN",
+            {
+                "notes": "ancient"
+            }
+        ],
+        [
+            "Beregond",
+            "Beorn's House",
+            "RULES",
+            {
+                "notes": "strong"
+            }
+        ],
+        [
+            "Gothmog",
+            "Beregond",
+            "BETRAYS",
+            {
+                "notes": "strong"
+            }
+        ],
+        [
+            "Saruman",
+            "Éomer",
+            "MENTORS",
+            {
+                "notes": "strong"
+            }
+        ],
+        [
+            "Bolg",
+            "Elendil",
+            "BETRAYS",
+            {
+                "notes": "hidden"
+            }
+        ],
+        [
+            "Faramir",
+            "Mount Doom",
+            "GUARDS",
+            {
+                "notes": "ancient"
+            }
+        ],
+        [
+            "Gorbag",
+            "Beregond",
+            "BETRAYS",
+            {
+                "notes": "strong"
+            }
+        ],
+        [
+            "Aragorn",
+            "Bard the Bowman",
+            "FRIENDS_WITH",
+            {
+                "notes": "strong"
+            }
+        ],
+        [
+            "Rangers of the North",
+            "Easterlings",
+            "ALLY_OF",
+            {
+                "notes": "ancient"
+            }
+        ],
+        [
+            "Éomer",
+            "Gorbag",
+            "ENEMIES_WITH",
+            {
+                "notes": "strong"
+            }
+        ],
+        [
+            "Merry",
+            "Lake-town",
+            "LIVES_IN",
+            {
+                "notes": "ancient"
+            }
+        ],
+        [
+            "Denethor",
+            "Three Elven Rings",
+            "WIELDS",
+            {
+                "notes": "ancient"
+            }
+        ],
+        [
+            "Army of the West",
+            "Rangers of the North",
+            "ALLY_OF",
+            {
+                "notes": "strong"
+            }
+        ],
+        [
+            "Keys of Barad-dûr",
+            "Nazgûl",
+            "BELONGS_TO",
+            {
+                "notes": "strong"
+            }
+        ],
+        [
+            "Éowyn",
+            "Helm's Deep",
+            "TRAVELS_TO",
+            {
+                "notes": "hidden"
+            }
+        ],
+        [
+            "Aragorn",
+            "Helm's Deep",
+            "RULES",
+            {
+                "notes": "hidden"
+            }
+        ],
+        [
+            "Faramir",
+            "Frodo",
+            "PROTECTS",
+            {
+                "notes": "ancient"
+            }
+        ],
+        [
+            "Crown of Gondor",
+            "Sauron",
+            "CREATED_BY",
+            {
+                "notes": "strong"
+            }
+        ],
+        [
+            "Gothmog",
+            "Bard the Bowman",
+            "BETRAYS",
+            {
+                "notes": "strong"
+            }
+        ],
+        [
+            "Éowyn",
+            "Ettenmoors",
+            "GUARDS",
+            {
+                "notes": "ancient"
+            }
+        ],
+        [
+            "Gríma Wormtongue",
+            "Éowyn",
+            "FRIENDS_WITH",
+            {
+                "notes": "hidden"
+            }
+        ],
+        [
+            "Mount Doom",
+            "Caras Galadhon",
+            "CONNECTED_TO",
+            {
+                "notes": "strong"
+            }
+        ],
+        [
+            "Éowyn",
+            "Bilbo",
+            "PROTECTS",
+            {
+                "notes": "hidden"
+            }
+        ],
+        [
+            "Gandalf",
+            "Halbarad",
+            "MENTORS",
+            {
+                "notes": "strong"
+            }
+        ],
+        [
+            "Aeglos",
+            "Rangers of the North",
+            "BELONGS_TO",
+            {
+                "notes": "ancient"
+            }
+        ],
+        [
+            "Faramir",
+            "Shagrat",
+            "ENEMIES_WITH",
+            {
+                "notes": "hidden"
+            }
+        ],
+        [
+            "Thranduil's Halls",
+            "Osgiliath",
+            "CONNECTED_TO",
+            {
+                "notes": "ancient"
+            }
+        ],
+        [
+            "Gandalf",
+            "Uruk-hai",
+            "CONTROLS",
+            {
+                "notes": "hidden"
+            }
+        ],
+        [
+            "Radagast",
+            "Dead Men of Dunharrow",
+            "CONTROLS",
+            {
+                "notes": "strong"
+            }
+        ],
+        [
+            "Gollum",
+            "Sting",
+            "POSSESSES",
+            {
+                "notes": "strong"
+            }
+        ],
+        [
+            "Théoden",
+            "Gondor",
+            "RULES",
+            {
+                "notes": "hidden"
+            }
+        ],
+        [
+            "Bard the Bowman",
+            "Bilbo",
+            "PROTECTS",
+            {
+                "notes": "ancient"
+            }
+        ],
+        [
+            "Sting",
+            "Uruk-hai",
+            "BELONGS_TO",
+            {
+                "notes": "hidden"
+            }
+        ],
+        [
+            "Mouth of Sauron",
+            "Three Elven Rings",
+            "SEEKS",
+            {
+                "notes": "strong"
+            }
+        ],
+        [
+            "Ettenmoors",
+            "Weathertop",
+            "CONNECTED_TO",
+            {
+                "notes": "strong"
+            }
+        ],
+        [
+            "Gollum",
+            "The One Ring",
+            "POSSESSES",
+            {
+                "notes": "ancient"
+            }
+        ],
+        [
+            "Uruk-hai",
+            "Rangers of the North",
+            "ALLY_OF",
+            {
+                "notes": "strong"
+            }
+        ],
+        [
+            "Isildur",
+            "Tol Eressëa",
+            "RULES",
+            {
+                "notes": "strong"
+            }
+        ],
+        [
+            "Easterlings",
+            "Army of the West",
+            "ALLY_OF",
+            {
+                "notes": "ancient"
+            }
+        ],
+        [
+            "Elendil",
+            "Gothmog",
+            "ENEMIES_WITH",
+            {
+                "notes": "hidden"
+            }
+        ],
+        [
+            "Éomer",
+            "Gandalf",
+            "FOLLOWS",
+            {
+                "notes": "hidden"
+            }
+        ],
+        [
+            "Barliman Butterbur",
+            "Anárion",
+            "FRIENDS_WITH",
+            {
+                "notes": "ancient"
+            }
+        ],
+        [
+            "Boromir",
+            "Gothmog",
+            "ENEMIES_WITH",
+            {
+                "notes": "ancient"
+            }
+        ],
+        [
+            "Beregond",
+            "Palantír",
+            "WIELDS",
+            {
+                "notes": "ancient"
+            }
+        ],
+        [
+            "Saruman",
+            "Haradrim",
+            "CONTROLS",
+            {
+                "notes": "ancient"
+            }
+        ],
+        [
+            "Anárion",
+            "Elendil",
+            "FRIENDS_WITH",
+            {
+                "notes": "strong"
+            }
+        ],
+        [
+            "Gollum",
+            "Andúril",
+            "SEEKS",
+            {
+                "notes": "strong"
+            }
+        ],
+        [
+            "Shelob",
+            "The One Ring",
+            "POSSESSES",
+            {
+                "notes": "strong"
+            }
+        ],
+        [
+            "Azog",
+            "Gamling",
+            "BETRAYS",
+            {
+                "notes": "ancient"
+            }
+        ],
+        [
+            "Emyn Muil",
+            "Caras Galadhon",
+            "CONNECTED_TO",
+            {
+                "notes": "hidden"
+            }
+        ],
+        [
+            "Saruman",
+            "Gamling",
+            "MENTORS",
+            {
+                "notes": "strong"
+            }
+        ],
+        [
+            "Barliman Butterbur",
+            "Saruman",
+            "FOLLOWS",
+            {
+                "notes": "ancient"
+            }
+        ],
+        [
+            "Halbarad",
+            "Emyn Muil",
+            "TRAVELS_TO",
+            {
+                "notes": "ancient"
+            }
+        ],
+        [
+            "Gollum",
+            "Narsil",
+            "SEEKS",
+            {
+                "notes": "hidden"
+            }
+        ],
+        [
+            "Éomer",
+            "Moria",
+            "GUARDS",
+            {
+                "notes": "strong"
+            }
+        ],
+        [
+            "Bard the Bowman",
+            "Radagast",
+            "FOLLOWS",
+            {
+                "notes": "ancient"
+            }
+        ],
+        [
+            "Gamling",
+            "Phial of Galadriel",
+            "WIELDS",
+            {
+                "notes": "hidden"
+            }
+        ],
+        [
+            "Gandalf",
+            "Beregond",
+            "MENTORS",
+            {
+                "notes": "ancient"
+            }
+        ],
+        [
+            "Bolg",
+            "Gríma Wormtongue",
+            "BETRAYS",
+            {
+                "notes": "strong"
+            }
+        ],
+        [
+            "Mouth of Sauron",
+            "Elendilmir",
+            "POSSESSES",
+            {
+                "notes": "ancient"
+            }
+        ],
+        [
+            "Gríma Wormtongue",
+            "Dol Guldur",
+            "RULES",
+            {
+                "notes": "hidden"
+            }
+        ],
+        [
+            "Éomer",
+            "Gondor",
+            "GUARDS",
+            {
+                "notes": "strong"
+            }
+        ],
+        [
+            "Dead Men of Dunharrow",
+            "Rangers of the North",
+            "ALLY_OF",
+            {
+                "notes": "hidden"
+            }
+        ],
+        [
+            "Elendil",
+            "Minas Tirith",
+            "TRAVELS_TO",
+            {
+                "notes": "strong"
+            }
+        ]
+    ]
+}

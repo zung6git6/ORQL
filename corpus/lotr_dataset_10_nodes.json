@@ -1,0 +1,176 @@
+{
+    "nodes": {
+        "Ettenmoors": "Location",
+        "Three Elven Rings": "Artifact",
+        "Barliman Butterbur": "Human",
+        "Merry": "Hobbit",
+        "Denethor": "Human",
+        "Orcs of Mordor": "Faction",
+        "Aeglos": "Artifact",
+        "Gwaihir": "Eagle",
+        "Rohan": "Location",
+        "Barad-dûr": "Location"
+    },
+    "relationships": [
+        [
+            "Merry",
+            "Ettenmoors",
+            "LIVES_IN",
+            {
+                "notes": "hidden"
+            }
+        ],
+        [
+            "Denethor",
+            "Aeglos",
+            "WIELDS",
+            {
+                "notes": "hidden"
+            }
+        ],
+        [
+            "Aeglos",
+            "Orcs of Mordor",
+            "BELONGS_TO",
+            {
+                "notes": "hidden"
+            }
+        ],
+        [
+            "Denethor",
+            "Merry",
+            "PROTECTS",
+            {
+                "notes": "strong"
+            }
+        ],
+        [
+            "Barliman Butterbur",
+            "Denethor",
+            "KIN_OF",
+            {
+                "notes": "hidden"
+            }
+        ],
+        [
+            "Barliman Butterbur",
+            "Barad-dûr",
+            "GUARDS",
+            {
+                "notes": "strong"
+            }
+        ],
+        [
+            "Barliman Butterbur",
+            "Merry",
+            "PROTECTS",
+            {
+                "notes": "ancient"
+            }
+        ],
+        [
+            "Barad-dûr",
+            "Ettenmoors",
+            "CONNECTED_TO",
+            {
+                "notes": "hidden"
+            }
+        ],
+        [
+            "Barliman Butterbur",
+            "Ettenmoors",
+            "RULES",
+            {
+                "notes": "hidden"
+            }
+        ],
+        [
+            "Three Elven Rings",
+            "Orcs of Mordor",
+            "BELONGS_TO",
+            {
+                "notes": "strong"
+            }
+        ],
+        [
+            "Denethor",
+            "Barliman Butterbur",
+            "FRIENDS_WITH",
+            {
+                "notes": "strong"
+            }
+        ],
+        [
+            "Barad-dûr",
+            "Rohan",
+            "CONNECTED_TO",
+            {
+                "notes": "hidden"
+            }
+        ],
+        [
+            "Barliman Butterbur",
+            "Rohan",
+            "TRAVELS_TO",
+            {
+                "notes": "strong"
+            }
+        ],
+        [
+            "Barliman Butterbur",
+            "Ettenmoors",
+            "GUARDS",
+            {
+                "notes": "strong"
+            }
+        ],
+        [
+            "Denethor",
+            "Barad-dûr",
+            "RULES",
+            {
+                "notes": "hidden"
+            }
+        ],
+        [
+            "Merry",
+            "Barad-dûr",
+            "LIVES_IN",
+            {
+                "notes": "strong"
+            }
+        ],
+        [
+            "Barliman Butterbur",
+            "Barad-dûr",
+            "TRAVELS_TO",
+            {
+                "notes": "ancient"
+            }
+        ],
+        [
+            "Ettenmoors",
+            "Rohan",
+            "CONNECTED_TO",
+            {
+                "notes": "ancient"
+            }
+        ],
+        [
+            "Denethor",
+            "Barad-dûr",
+            "TRAVELS_TO",
+            {
+                "notes": "ancient"
+            }
+        ],
+        [
+            "Denethor",
+            "Ettenmoors",
+            "TRAVELS_TO",
+            {
+                "notes": "ancient"
+            }
+        ]
+    ]
+}
