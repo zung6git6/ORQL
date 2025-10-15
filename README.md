@@ -1,12 +1,12 @@
-ORQL (One Ring Query Language) est un langage de requête unifié conçu pour OneRingDB, une base de données orientée graphe.
-Inspiré du monde de Tolkien et pensé pour les ingénieurs NLP et DevOps, ORQL simplifie la manipulation de graphes complexes en offrant une syntaxe claire, expressive et extensible.
+ORQL (One Ring Query Language) is a unified query language designed for OneRingDB, a graph-oriented database.
+Inspired by Middle-earth lore and engineered for NLP and DevOps professionals, ORQL simplifies complex graph manipulation with a clear, expressive, and extensible syntax.
 
-Avec ORQL, tu peux :
+With ORQL, you can:
 
-🧩 Créer, lire, mettre à jour et supprimer des nœuds et relations (CRUD complet)
+🧩 Create, read, update, and delete nodes and relationships (full CRUD)
 
-🔍 Exécuter des recherches de chemins (LINK, MIN_LENGTH, MAX_LENGTH)
+🔍 Explore graph paths using LINK, MIN_LENGTH, and MAX_LENGTH
 
-🎨 Gérer dynamiquement la visualisation avec CLUSTER, COLOR, et leurs inverses NOT
+🎨 Control visualization dynamically with CLUSTER, COLOR, and their inverse options NOT
 
-✨ Linéariser les graphes en texte (LINEARISE) pour des tâches NLP (contextualisation, génération de texte, embeddings, etc.)
+✨ Linearize graphs into text (LINEARISE) for NLP tasks such as contextualization, text generation, or embedding extraction
